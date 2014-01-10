@@ -1,0 +1,64 @@
+<!doctype html>
+<html ng-app="testapp">
+<head>
+    <!--即时编辑控件指令演示2-->
+    <script src="lib/angular.min.js"></script>
+    <script type="text/ng-template" id="temp">
+        <div>
+            <div class="text" ng-show="!editMode" ng-click="enterEditMode()">{{text}}</div>
+            <div class ="edit" ng-show="editMode"><input type="text" value="{{text}}"/><button ng-click="exitEditMode()">ok</button><button ng-click="cancelEditMode()">cancel</button></div>
+        </div>
+    </script>
+    <script>
+        var app=angular.module("testapp",[]);
+        app.directive("txtedit",function(){
+            return {
+                restrict:"EA",
+                replace:true,
+                transclude:true,
+                scope:{text:'=outText'},
+                templateUrl:"temp",
+                link: function(scope, element, attrs) {
+                    var inputele=angular.element(element.find("input"))[0];
+                   scope.editMode=false;
+                    scope.enterEditMode=function(){
+                      scope.editMode=true;
+                        inputele.value=scope.text;
+                    };
+                    scope.exitEditMode=function(){
+                      scope.editMode=false;
+                        scope.text=inputele.value;
+                    };
+                    scope.cancelEditMode=function(){
+                        scope.editMode=false;
+                    }
+                }
+            };
+        });
+        app.controller("ctrl",["$scope",function($scope){
+            $scope.settext="click me to edit";
+
+        }]);
+    </script>
+    <style>
+        .text{
+            background-color:#dff0d8;
+            cursor:pointer;
+            padding:5px;
+            width:250px;
+        }
+        .edit{
+            border:1px solid goldenrod;
+            background-color: gold;
+            width:250px;
+            padding:10px;
+        }
+
+    </style>
+</head>
+<body>
+<div ng-controller="ctrl">
+<txtedit out-text="settext"></txtedit>
+    </div>
+</body>
+</html>
