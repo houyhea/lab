@@ -1,0 +1,10 @@
+.app_js_module_eventdetail .head
+{
+    border:3px solid blue;
+
+}
+.app_js_module_eventdetail .body
+{
+    background: yellow;
+    padding:10px;
+}
