@@ -1,0 +1,57 @@
+; CLW file contains information for the MFC ClassWizard
+
+[General Info]
+Version=1
+LastClass=CListBoxDlg
+LastTemplate=CDialog
+NewFileInclude1=#include "stdafx.h"
+NewFileInclude2=#include "listbox.h"
+LastPage=0
+
+ClassCount=3
+Class1=CListBoxApp
+Class2=CListBoxDlg
+Class3=CMyListBox
+
+ResourceCount=1
+Resource1=IDD_LISTBOX_DIALOG (German (Germany))
+
+[CLS:CListBoxApp]
+Type=0
+BaseClass=CWinApp
+HeaderFile=ListBox.h
+ImplementationFile=ListBox.cpp
+LastObject=CListBoxApp
+
+[CLS:CListBoxDlg]
+Type=0
+BaseClass=CDialog
+HeaderFile=ListBoxDlg.h
+ImplementationFile=ListBoxDlg.cpp
+Filter=D
+VirtualFilter=dWC
+LastObject=CListBoxDlg
+
+[CLS:CMyListBox]
+Type=0
+BaseClass=CListBox
+HeaderFile=MyListBox.h
+ImplementationFile=MyListBox.cpp
+LastObject=IDC_LIST2
+Filter=W
+VirtualFilter=bWC
+
+[DLG:IDD_LISTBOX_DIALOG]
+Type=1
+Class=CListBoxDlg
+
+[DLG:IDD_LISTBOX_DIALOG (German (Germany))]
+Type=1
+Class=?
+ControlCount=5
+Control1=IDC_LIST1,listbox,1345388803
+Control2=IDC_BUTTON1,button,1342242816
+Control3=IDOK,button,1342242816
+Control4=IDC_BUTTON2,button,1342242816
+Control5=IDC_LIST2,listbox,1353777411
+

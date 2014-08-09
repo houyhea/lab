@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppSettingInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key />
+  <Description>应用程序配置信息</Description>
+  <AppSettings>
+    <AppSettingInfo>
+      <Key>name</Key>
+      <Category>基本</Category>
+      <Description>名称</Description>
+      <DisplayName></DisplayName>
+      <IsReadOnly>0</IsReadOnly>
+      <AppSettings />
+    </AppSettingInfo>
+    <AppSettingInfo>
+      <Key>Com</Key>
+      <Category>基本</Category>
+      <Description>显示的公司域名</Description>
+      <DisplayName></DisplayName>
+      <IsReadOnly>0</IsReadOnly>
+      <AppSettings />
+    </AppSettingInfo>
+    <AppSettingInfo>
+      <Key>QQ</Key>
+      <Category>基本</Category>
+      <Description>配置QQ</Description>
+      <DisplayName></DisplayName>
+      <IsReadOnly>0</IsReadOnly>
+      <AppSettings />
+    </AppSettingInfo>
+    <AppSettingInfo>
+      <Key>Email</Key>
+      <Category>高级</Category>
+      <Description>显示你的Email</Description>
+      <DisplayName></DisplayName>
+      <IsReadOnly>0</IsReadOnly>
+      <AppSettings />
+    </AppSettingInfo>
+  </AppSettings>
+</AppSettingInfo>
