@@ -1,0 +1,1422 @@
+"DeployProject"
+{
+"VSVersion" = "3:701"
+"ProjectType" = "8:{AB322303-2255-48EF-A496-5904EB18DA55}"
+"IsWebType" = "8:FALSE"
+"ProjectName" = "8:M8PushBoxCabInstaller"
+"LanguageId" = "3:2052"
+"CodePage" = "3:936"
+"SccProjectName" = "8:"
+"SccLocalPath" = "8:"
+"SccAuxPath" = "8:"
+"SccProvider" = "8:"
+    "Hierarchy"
+    {
+        "Entry"
+        {
+        "MsmKey" = "8:_00CD44DF619E4795A87A6E1F4C13A251"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0184AF9FC6144E45AC0C1696CB0DCC02"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_02F2EA6E7655442091A3F28B52AD14A1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0BEB110BD96F4AE58F5F21E5A9333CD3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0F30434F20E6464E89E53D5A957753C6"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1972755B1C7D4F16A6D158910EF1094C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1C807D9DA8B244B1BDF7B042C1B89458"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1E22B947D6F84EB383A5D5A7BA5D1F82"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2C554D73BE63448397ABA5A5FFBBFF4D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_31F9CA5A6C454958AA11E1CDBDF93A1A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3551082B77A346A0BA70DE1879F49449"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3739415A1E8F4D91A8FE9D33EF5B219A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_38AB2816AC4B40E284A1F6A002D89FE3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3B9A7131531B49358E7540ABEEA13E2D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3EC3DF1FF62541398CF6E3EBA9528094"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_49D4AFA4F8454B12AA070B2106DE48E5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4E5BE039A210460598318D6E47F2FB59"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4FFA98080613428695252B6F8480D25C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5045505F565F4B2788222F6924568027"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_51BD54A508724133B5004C7E3728D892"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5828DFA6C5824092BDE08C401868E3DF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_70B2E81D3ABB4CFA826AA61629F36A0F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_78801B699F6249DB9270953877E9A2C8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7BB1E41A11F845D1863E73397CB67F02"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_801A7EC116AC41E88D8A8E4C3CDAE093"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8033B411832548C79A41700D4A6AF63B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_842DD658C9E34C5396A0FA127796BE77"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_84F1E7F5BEB1453FA9975FA9385C50F2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8699F99122A045CA807BBDCDA10D77CE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8742B53886BA4E20A3F8685D970EABA6"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_915E13504FA14B25A74955695F3384C1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A2024D0B21D441829666B8438D01E5BC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B552E2C14DEF45CA8F8494D215AB31FF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B95943FB93C44FE187936A973B6EB5F1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BCC3F85A1FB1441BA31226E4AA7BD90A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BDF3492F00304D52B39AD6BA29C4D9C5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D1C62E54D40744D3821C6B2ABDB4BA48"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D399C21345204BD59A682175583776F6"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D50F768BEB03438F811B4B0BD7859B02"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D807F3823BF54DA897D2DB3AEF3998BC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D821DCE1070340049E8962894D455A75"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D91AB5901B9644838CE6EE73D51A05C4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DF353AA7F7A94177B5B4F6FCEFE42B4B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E674F020ACB94B8992BCDF9609673560"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E6BED33D92F0406497445ED6F29484C2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F36D84CD0A104CFB8E85F338F565F162"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F375AE5FA1744DC680EA354EF5BF105F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+    }
+    "Configurations"
+    {
+        "Debug"
+        {
+        "DisplayName" = "8:Debug"
+        "IsDebugOnly" = "11:TRUE"
+        "IsReleaseOnly" = "11:FALSE"
+        "OutputFilename" = "8:Debug\\M8PushBoxCabInstaller.cab"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "SignOutput" = "11:FALSE"
+        "CertificateHash" = "8:"
+        "TimeStampServer" = "8:"
+        }
+        "Release"
+        {
+        "DisplayName" = "8:Release"
+        "IsDebugOnly" = "11:FALSE"
+        "IsReleaseOnly" = "11:TRUE"
+        "OutputFilename" = "8:Release\\M8PushBoxCabInstaller.cab"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "SignOutput" = "11:FALSE"
+        "CertificateHash" = "8:"
+        "TimeStampServer" = "8:"
+        }
+    }
+    "Deployable"
+    {
+        "File"
+        {
+            "{BA458234-9B71-4F46-8107-E91156377184}:_00CD44DF619E4795A87A6E1F4C13A251"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\main\\closeHover.bmp"
+            "TargetName" = "8:closeHover.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_39D9FB0E406D433AA835FE7CBAA5F390"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_0184AF9FC6144E45AC0C1696CB0DCC02"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\about\\returnHover.png"
+            "TargetName" = "8:returnHover.png"
+            "Tag" = "8:"
+            "Folder" = "8:_AED5630E0ADA48CDADC50380363ADE04"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_02F2EA6E7655442091A3F28B52AD14A1"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\wav\\DEST.WAV"
+            "TargetName" = "8:DEST.WAV"
+            "Tag" = "8:"
+            "Folder" = "8:_786D69ED479F419BA826E86C0394E5B2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_0BEB110BD96F4AE58F5F21E5A9333CD3"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\right-normal.png"
+            "TargetName" = "8:right-normal.png"
+            "Tag" = "8:"
+            "Folder" = "8:_AA74567DC5BE4681A22385580DF86560"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_0F30434F20E6464E89E53D5A957753C6"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\main\\startHover.bmp"
+            "TargetName" = "8:startHover.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_39D9FB0E406D433AA835FE7CBAA5F390"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_1972755B1C7D4F16A6D158910EF1094C"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\number\\6.png"
+            "TargetName" = "8:6.png"
+            "Tag" = "8:"
+            "Folder" = "8:_80C6C5E2D1094349B82F1B7A6733524C"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_1C807D9DA8B244B1BDF7B042C1B89458"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\gamebg.jpg"
+            "TargetName" = "8:gamebg.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_AA74567DC5BE4681A22385580DF86560"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_1E22B947D6F84EB383A5D5A7BA5D1F82"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\about\\aboutbg.jpg"
+            "TargetName" = "8:aboutbg.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_AED5630E0ADA48CDADC50380363ADE04"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_2C554D73BE63448397ABA5A5FFBBFF4D"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\tip\\return.bmp"
+            "TargetName" = "8:return.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_AF104B00D4EE4F4FBF6BDC1F4D8C20B2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_31F9CA5A6C454958AA11E1CDBDF93A1A"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\target.bmp"
+            "TargetName" = "8:target.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_AA74567DC5BE4681A22385580DF86560"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_3551082B77A346A0BA70DE1879F49449"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\main\\close.bmp"
+            "TargetName" = "8:close.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_39D9FB0E406D433AA835FE7CBAA5F390"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_3739415A1E8F4D91A8FE9D33EF5B219A"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\main\\mainbg.jpg"
+            "TargetName" = "8:mainbg.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_39D9FB0E406D433AA835FE7CBAA5F390"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_38AB2816AC4B40E284A1F6A002D89FE3"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\number\\8.png"
+            "TargetName" = "8:8.png"
+            "Tag" = "8:"
+            "Folder" = "8:_80C6C5E2D1094349B82F1B7A6733524C"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_3B9A7131531B49358E7540ABEEA13E2D"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\personontarget.bmp"
+            "TargetName" = "8:personontarget.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_AA74567DC5BE4681A22385580DF86560"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_3EC3DF1FF62541398CF6E3EBA9528094"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\right-hover.png"
+            "TargetName" = "8:right-hover.png"
+            "Tag" = "8:"
+            "Folder" = "8:_AA74567DC5BE4681A22385580DF86560"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_49D4AFA4F8454B12AA070B2106DE48E5"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\help\\help.jpg"
+            "TargetName" = "8:help.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_AFE9463E3E3C41E5830E18D26E7E739A"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_4E5BE039A210460598318D6E47F2FB59"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\menu-normal.png"
+            "TargetName" = "8:menu-normal.png"
+            "Tag" = "8:"
+            "Folder" = "8:_AA74567DC5BE4681A22385580DF86560"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_4FFA98080613428695252B6F8480D25C"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\main\\about.bmp"
+            "TargetName" = "8:about.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_39D9FB0E406D433AA835FE7CBAA5F390"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_5045505F565F4B2788222F6924568027"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\wav\\SUCCESS.WAV"
+            "TargetName" = "8:SUCCESS.WAV"
+            "Tag" = "8:"
+            "Folder" = "8:_786D69ED479F419BA826E86C0394E5B2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_51BD54A508724133B5004C7E3728D892"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\number\\7.png"
+            "TargetName" = "8:7.png"
+            "Tag" = "8:"
+            "Folder" = "8:_80C6C5E2D1094349B82F1B7A6733524C"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_5828DFA6C5824092BDE08C401868E3DF"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\menu-hover.png"
+            "TargetName" = "8:menu-hover.png"
+            "Tag" = "8:"
+            "Folder" = "8:_AA74567DC5BE4681A22385580DF86560"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_70B2E81D3ABB4CFA826AA61629F36A0F"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\left-normal.png"
+            "TargetName" = "8:left-normal.png"
+            "Tag" = "8:"
+            "Folder" = "8:_AA74567DC5BE4681A22385580DF86560"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_78801B699F6249DB9270953877E9A2C8"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\person.png"
+            "TargetName" = "8:person.png"
+            "Tag" = "8:"
+            "Folder" = "8:_AA74567DC5BE4681A22385580DF86560"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_7BB1E41A11F845D1863E73397CB67F02"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\wav\\MOVE.WAV"
+            "TargetName" = "8:MOVE.WAV"
+            "Tag" = "8:"
+            "Folder" = "8:_786D69ED479F419BA826E86C0394E5B2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_801A7EC116AC41E88D8A8E4C3CDAE093"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\number\\4.png"
+            "TargetName" = "8:4.png"
+            "Tag" = "8:"
+            "Folder" = "8:_80C6C5E2D1094349B82F1B7A6733524C"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_8033B411832548C79A41700D4A6AF63B"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\boxontarget.bmp"
+            "TargetName" = "8:boxontarget.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_AA74567DC5BE4681A22385580DF86560"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_842DD658C9E34C5396A0FA127796BE77"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\number\\9.png"
+            "TargetName" = "8:9.png"
+            "Tag" = "8:"
+            "Folder" = "8:_80C6C5E2D1094349B82F1B7A6733524C"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_84F1E7F5BEB1453FA9975FA9385C50F2"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\tip\\resumeh.bmp"
+            "TargetName" = "8:resumeh.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_AF104B00D4EE4F4FBF6BDC1F4D8C20B2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_8699F99122A045CA807BBDCDA10D77CE"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\tip\\succ.png"
+            "TargetName" = "8:succ.png"
+            "Tag" = "8:"
+            "Folder" = "8:_AF104B00D4EE4F4FBF6BDC1F4D8C20B2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_8742B53886BA4E20A3F8685D970EABA6"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\left-hover.png"
+            "TargetName" = "8:left-hover.png"
+            "Tag" = "8:"
+            "Folder" = "8:_AA74567DC5BE4681A22385580DF86560"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_915E13504FA14B25A74955695F3384C1"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\tip\\bg.jpg"
+            "TargetName" = "8:bg.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_AF104B00D4EE4F4FBF6BDC1F4D8C20B2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_A2024D0B21D441829666B8438D01E5BC"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\box.bmp"
+            "TargetName" = "8:box.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_AA74567DC5BE4681A22385580DF86560"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_B552E2C14DEF45CA8F8494D215AB31FF"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\tip\\resume.bmp"
+            "TargetName" = "8:resume.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_AF104B00D4EE4F4FBF6BDC1F4D8C20B2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_B95943FB93C44FE187936A973B6EB5F1"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\number\\2.png"
+            "TargetName" = "8:2.png"
+            "Tag" = "8:"
+            "Folder" = "8:_80C6C5E2D1094349B82F1B7A6733524C"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_BCC3F85A1FB1441BA31226E4AA7BD90A"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\wall.bmp"
+            "TargetName" = "8:wall.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_AA74567DC5BE4681A22385580DF86560"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_BDF3492F00304D52B39AD6BA29C4D9C5"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\about\\return.png"
+            "TargetName" = "8:return.png"
+            "Tag" = "8:"
+            "Folder" = "8:_AED5630E0ADA48CDADC50380363ADE04"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_D1C62E54D40744D3821C6B2ABDB4BA48"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\number\\3.png"
+            "TargetName" = "8:3.png"
+            "Tag" = "8:"
+            "Folder" = "8:_80C6C5E2D1094349B82F1B7A6733524C"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_D399C21345204BD59A682175583776F6"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\blank.bmp"
+            "TargetName" = "8:blank.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_AA74567DC5BE4681A22385580DF86560"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_D50F768BEB03438F811B4B0BD7859B02"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\main\\start.bmp"
+            "TargetName" = "8:start.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_39D9FB0E406D433AA835FE7CBAA5F390"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_D807F3823BF54DA897D2DB3AEF3998BC"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\number\\5.png"
+            "TargetName" = "8:5.png"
+            "Tag" = "8:"
+            "Folder" = "8:_80C6C5E2D1094349B82F1B7A6733524C"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_D821DCE1070340049E8962894D455A75"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\main\\aboutHover.bmp"
+            "TargetName" = "8:aboutHover.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_39D9FB0E406D433AA835FE7CBAA5F390"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_D91AB5901B9644838CE6EE73D51A05C4"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\tip\\clearlevel.png"
+            "TargetName" = "8:clearlevel.png"
+            "Tag" = "8:"
+            "Folder" = "8:_AF104B00D4EE4F4FBF6BDC1F4D8C20B2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_DF353AA7F7A94177B5B4F6FCEFE42B4B"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\logo.png"
+            "TargetName" = "8:logo.png"
+            "Tag" = "8:"
+            "Folder" = "8:_AA74567DC5BE4681A22385580DF86560"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_E674F020ACB94B8992BCDF9609673560"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\tip\\returnH.bmp"
+            "TargetName" = "8:returnH.bmp"
+            "Tag" = "8:"
+            "Folder" = "8:_AF104B00D4EE4F4FBF6BDC1F4D8C20B2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_E6BED33D92F0406497445ED6F29484C2"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\number\\1.png"
+            "TargetName" = "8:1.png"
+            "Tag" = "8:"
+            "Folder" = "8:_80C6C5E2D1094349B82F1B7A6733524C"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_F36D84CD0A104CFB8E85F338F565F162"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\pic\\number\\0.png"
+            "TargetName" = "8:0.png"
+            "Tag" = "8:"
+            "Folder" = "8:_80C6C5E2D1094349B82F1B7A6733524C"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_F375AE5FA1744DC680EA354EF5BF105F"
+            {
+            "SourcePath" = "8:..\\m8pushbox\\M8SDK (ARMV4I)\\Release\\m8pushbox.exe"
+            "TargetName" = "8:m8pushbox.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_0AAE4F3814F24E6094E04FCAFB561FB7"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+        }
+        "Folder"
+        {
+            "{27CA7284-31D3-408F-812A-1EF9ACCDB822}:_1155C797C0924B458F223E7EEFA6BE46"
+            {
+            "Name" = "8:disk"
+            "Condition" = "8:"
+            "Property" = "8:CUSTOMFOLDER1"
+                "Folders"
+                {
+                    "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_3F2DDA16F62B40BE9586085DA5B2C886"
+                    {
+                    "Name" = "8:programs"
+                    "Condition" = "8:"
+                    "Property" = "8:_0091C3A2759F4DA790649765A9C72A65"
+                        "Folders"
+                        {
+                            "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_39B13A8242634400ACF622AC33B42C5D"
+                            {
+                            "Name" = "8:games"
+                            "Condition" = "8:"
+                            "Property" = "8:_5BD5B8CD75854CCDB4F917B37ADC0D53"
+                                "Folders"
+                                {
+                                    "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_0AAE4F3814F24E6094E04FCAFB561FB7"
+                                    {
+                                    "Name" = "8:M8PushBox"
+                                    "Condition" = "8:"
+                                    "Property" = "8:_69E8F6D856004C11AD1010A75788823B"
+                                        "Folders"
+                                        {
+                                            "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_786D69ED479F419BA826E86C0394E5B2"
+                                            {
+                                            "Name" = "8:wav"
+                                            "Condition" = "8:"
+                                            "Property" = "8:_A67A5A13570F43AFB6160C0978126AD4"
+                                                "Folders"
+                                                {
+                                                }
+                                            }
+                                            "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_AA74567DC5BE4681A22385580DF86560"
+                                            {
+                                            "Name" = "8:pic"
+                                            "Condition" = "8:"
+                                            "Property" = "8:_FD4D33607E2345F98B9561C93547B586"
+                                                "Folders"
+                                                {
+                                                    "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_39D9FB0E406D433AA835FE7CBAA5F390"
+                                                    {
+                                                    "Name" = "8:main"
+                                                    "Condition" = "8:"
+                                                    "Property" = "8:_5256BC5D7EAC4FDDB06EF76109C9DAFD"
+                                                        "Folders"
+                                                        {
+                                                        }
+                                                    }
+                                                    "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_80C6C5E2D1094349B82F1B7A6733524C"
+                                                    {
+                                                    "Name" = "8:number"
+                                                    "Condition" = "8:"
+                                                    "Property" = "8:_BB9B1F8F7B6341D0A41C8344FDE3ABA4"
+                                                        "Folders"
+                                                        {
+                                                        }
+                                                    }
+                                                    "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_AED5630E0ADA48CDADC50380363ADE04"
+                                                    {
+                                                    "Name" = "8:about"
+                                                    "Condition" = "8:"
+                                                    "Property" = "8:_09F7405B8B0E4A319A3EE15CA27EC360"
+                                                        "Folders"
+                                                        {
+                                                        }
+                                                    }
+                                                    "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_AF104B00D4EE4F4FBF6BDC1F4D8C20B2"
+                                                    {
+                                                    "Name" = "8:tip"
+                                                    "Condition" = "8:"
+                                                    "Property" = "8:_F19CAF3D10C04303A9D7694B48D16508"
+                                                        "Folders"
+                                                        {
+                                                        }
+                                                    }
+                                                    "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_AFE9463E3E3C41E5830E18D26E7E739A"
+                                                    {
+                                                    "Name" = "8:help"
+                                                    "Condition" = "8:"
+                                                    "Property" = "8:_E37723D921FC4C2D81876D28F6BC0A67"
+                                                        "Folders"
+                                                        {
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            "{D5B00AC1-E6C3-4CC5-90FF-8E0F53D9E5E0}:_7487312390C748709D777EBAA520A7C7"
+            {
+            "DefaultLocation" = "8:%InstallDir%"
+            "Name" = "8:#1920"
+            "Condition" = "8:"
+            "Property" = "8:%InstallDir%"
+                "Folders"
+                {
+                }
+            }
+        }
+        "Product"
+        {
+        "Name" = "8:Microsoft Visual Studio"
+        "ProductName" = "8:M8PushBoxCabInstaller"
+        "Manufacturer" = "8:ccf"
+        "OSVersionMin" = "8:4.0"
+        "OSVersionMax" = "8:6.99"
+        "NoUninstall" = "11:FALSE"
+        "Compress" = "11:FALSE"
+        "CESetupDLL" = "8:"
+        }
+        "ProjectOutput"
+        {
+        }
+        "Registry"
+        {
+            "HKLM"
+            {
+                "Keys"
+                {
+                    "{B1EBC968-6B66-4532-A885-748B79AF4477}:_271D412A46AE4817A3D044BD390FFA53"
+                    {
+                    "Name" = "8:SOFTWARE"
+                    "Condition" = "8:"
+                        "Keys"
+                        {
+                            "{B1EBC968-6B66-4532-A885-748B79AF4477}:_5FE7395A180F49DAA249F4542640FC3B"
+                            {
+                            "Name" = "8:Meizu"
+                            "Condition" = "8:"
+                                "Keys"
+                                {
+                                    "{B1EBC968-6B66-4532-A885-748B79AF4477}:_6D09872CFE1B4F2E9EA24C0B7ADD149A"
+                                    {
+                                    "Name" = "8:MiniOneShell"
+                                    "Condition" = "8:"
+                                        "Keys"
+                                        {
+                                            "{B1EBC968-6B66-4532-A885-748B79AF4477}:_4D95FC2DC7A74AA7A4032BAA126BF4A3"
+                                            {
+                                            "Name" = "8:Main"
+                                            "Condition" = "8:"
+                                                "Keys"
+                                                {
+                                                    "{B1EBC968-6B66-4532-A885-748B79AF4477}:_F8FBCEE4B11E4193ABE97A7F81C5E2CF"
+                                                    {
+                                                    "Name" = "8:M8PushBox"
+                                                    "Condition" = "8:"
+                                                        "Keys"
+                                                        {
+                                                        }
+                                                        "Values"
+                                                        {
+                                                            "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_4364CFD1B4DA40029164AD595AEE04E0"
+                                                            {
+                                                            "Name" = "8:DisplayName"
+                                                            "Condition" = "8:"
+                                                            "ValueTypes" = "3:1"
+                                                            "Value" = "8:Ëû"
+                                                            }
+                                                            "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_6E7D23DD9D4244B88D8CFD47A8E927AC"
+                                                            {
+                                                            "Name" = "8:ProgramID"
+                                                            "Condition" = "8:"
+                                                            "ValueTypes" = "3:1"
+                                                            "Value" = "8:{6E0C2D7F-5564-4a2a-88B7-8CF5C0DAF0CC}"
+                                                            }
+                                                            "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_942CF46833E94E3DB0E018BFEABD0B3E"
+                                                            {
+                                                            "Name" = "8:DefaultIcon"
+                                                            "Condition" = "8:"
+                                                            "ValueTypes" = "3:1"
+                                                            "Value" = "8:\\disk\\programs\\games\\m8pushbox\\pic\\logo.png"
+                                                            }
+                                                            "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_AE6B8DC8F2F94075A344FA788A43B3EA"
+                                                            {
+                                                            "Name" = "8:ExecFileName"
+                                                            "Condition" = "8:"
+                                                            "ValueTypes" = "3:1"
+                                                            "Value" = "8:\\disk\\programs\\games\\m8pushbox\\m8pushbox.exe"
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                                "Values"
+                                                {
+                                                }
+                                            }
+                                        }
+                                        "Values"
+                                        {
+                                        }
+                                    }
+                                }
+                                "Values"
+                                {
+                                }
+                            }
+                        }
+                        "Values"
+                        {
+                        }
+                    }
+                }
+            }
+            "HKCU"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKCR"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKU"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKPU"
+            {
+                "Keys"
+                {
+                }
+            }
+        }
+        "Shortcut"
+        {
+        }
+    }
+}

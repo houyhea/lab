@@ -1,0 +1,432 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> 推箱子 </TITLE>
+ <style>
+ .stock
+ {
+	width:20px;
+	height:20px;
+ }
+.wall
+{
+	background-image:url(pushbox_images/wall.gif);
+
+}
+.box
+{
+	background-image:url(pushbox_images/box.gif);
+}
+.boy{
+	background-image:url(pushbox_images/boy.gif);
+}
+.tar
+{
+	background-image:url(pushbox_images/tar.gif);
+}
+
+body
+{
+	background-color:black;
+}
+table
+{
+border-collapse:collapse; 
+border:1px solid black;
+}
+
+ </style>
+ 
+ </HEAD>
+
+ <BODY><div style="color:white;font-size:15px;">张勇推箱子beta版  v0.0.2<font color="#aaaaaa">（马建精神支持二次）</font></div>
+ <input type=button value="刷新" onclick="pushBox.refresh()"/>
+  <div id="placeHold"></div>
+  <div style="color:white;font-size:15px;">提示：使用方向键操作。</div>
+ <script>
+function tdBox(){
+	this.x=0;
+	this.y=0;
+	this.tdObject=null;
+	this.prop=tdProp.road;
+}
+var directionEnum={up:0,right:1,down:2,left:3};
+var tdProp={road:0,wall:1,box:2,boy:3,tar:4};
+var pLevel={
+map:[   [1,1,1,1,1,1,1,1,1],
+		[1,0,1,0,1,0,1,1,1],
+		[1,0,1,0,0,0,0,1,1],
+		[1,0,1,0,1,0,0,0,1],
+		[1,0,0,0,0,0,0,0,1],
+		[1,0,0,0,0,0,0,0,1],
+		[1,1,0,1,1,0,1,1,1],
+		[1,1,0,0,1,0,0,1,1],
+		[1,1,1,1,1,1,1,1,1]]
+,boy:	{x:2,y:4}
+,box:	[{x:3,y:4},
+		 {x:6,y:4}]
+,tar:	[{x:5,y:5},
+		 {x:2,y:7}]
+
+};
+pushBox={
+	tdBoxes:[]
+	//初始化变量
+	,curBoy:{}
+	,direction:directionEnum.up
+
+	,initMap:function()
+	{
+		var table1=document.createElement("table");
+		document.getElementById("placeHold").appendChild(table1);
+		//table1.border=1;
+		table1.cellSpacing=1;
+		table1.cellpadding=0;
+	        var tbody = document.createElement("tbody");
+        table1.appendChild(tbody);
+	
+		for(var i=0;i<pLevel.map.length;i++)
+		{
+			var tr1=document.createElement("tr");
+			
+			for(var j=0;j<pLevel.map[0].length;j++)
+			{
+				var td1=document.createElement("td");
+
+				var x=document.createTextNode("");
+				td1.appendChild(x);
+
+				var tdBox1=new tdBox();
+				//存横坐标，j
+				tdBox1.x=j;
+				//存纵坐标，i
+				tdBox1.y=i;
+				tdBox1.tdObject=td1;
+
+				switch(pLevel.map[i][j])
+				{
+					case 0:
+						td1.className=" stock";
+						break;
+					case 1:
+						td1.className="wall stock";
+						tdBox1.prop=tdProp.wall;
+						break;
+
+				}
+				this.tdBoxes.push(tdBox1);
+
+
+				tr1.appendChild(td1);
+			}
+			tbody.appendChild(tr1);
+		}
+
+		//生成BOY
+		for( i=0;i<this.tdBoxes.length;i++)
+		{
+			if(pLevel.boy.x==this.tdBoxes[i].x && pLevel.boy.y==this.tdBoxes[i].y)
+			{
+				this.tdBoxes[i].tdObject.className="boy stock";
+				this.tdBoxes[i].prop=tdProp.boy;
+			}
+		}
+
+		//生成box
+		for(i=0;i<pLevel.box.length;i++)
+		{
+			for(j=0;j<this.tdBoxes.length;j++)
+			{
+				if(this.tdBoxes[j].x==pLevel.box[i].x 
+					&& this.tdBoxes[j].y==pLevel.box[i].y )
+				{
+					this.tdBoxes[j].tdObject.className="box stock";	
+					this.tdBoxes[j].prop=tdProp.box;
+					//alert(this.tdBoxes[j].prop);
+
+				}
+			}
+		}
+
+		//生成tar
+		for(i=0;i<pLevel.tar.length;i++)
+		{
+			for(j=0;j<this.tdBoxes.length;j++)
+			{
+				if(this.tdBoxes[j].x==pLevel.tar[i].x 
+					&& this.tdBoxes[j].y==pLevel.tar[i].y )
+				{
+					this.tdBoxes[j].tdObject.className="tar stock";	
+					this.tdBoxes[j].prop=tdProp.tar;
+				}
+			}
+		}
+
+
+		this.curBoy=pLevel.boy;
+		//this.curBoxes=pLevel.box;
+
+		window.onkeydown=document.body.onkeydown=function (e){
+			switch ((window.event||e).keyCode){
+				case 37:
+					pushBox.direction=directionEnum.left;
+					pushBox.move();
+					break;		//左
+				case 38:					
+					pushBox.direction=directionEnum.up;
+					pushBox.move();
+					break;		//上
+				case 39:
+					pushBox.direction=directionEnum.right;
+					pushBox.move();
+					break;		//右
+				case 40:
+					pushBox.direction=directionEnum.down;
+					pushBox.move();
+					break;		//下
+
+			}			
+			
+		};
+
+
+	}
+	//根据坐标获取该坐标位置的属性，是路还是墙，箱子，人，目标
+	,gettdProp:function(point)
+	{
+		//alert(this.findtdBox(point).prop);
+		return	this.findtdBox(point).prop;
+	}
+	//根据方向获取当前BOY的前方坐标,需要重构
+	,getNext:function()
+	{
+		switch(this.direction)
+		{
+			case directionEnum.up:
+				return {x:this.curBoy.x,y:this.curBoy.y-1};
+			case directionEnum.down:
+				return {x:this.curBoy.x,y:this.curBoy.y+1};
+			case directionEnum.left:
+				return {x:this.curBoy.x-1,y:this.curBoy.y};
+			case directionEnum.right:
+				return {x:this.curBoy.x+1,y:this.curBoy.y};
+		}
+	}
+		//根据方向获取所给出的坐标的前方坐标
+	,getNextPoint:function(dir,refPoint)
+	{
+		switch(dir)
+		{
+			case directionEnum.up:
+				return {x:refPoint.x,y:refPoint.y-1};
+			case directionEnum.down:
+				return {x:refPoint.x,y:refPoint.y+1};
+			case directionEnum.left:
+				return {x:refPoint.x-1,y:refPoint.y};
+			case directionEnum.right:
+				return {x:refPoint.x+1,y:refPoint.y};
+		}
+	}
+	//tdp:下一个box的类型,point:下 一个box的坐标
+	,paint:function(tdp,point)
+	{
+		var tempcurPoint=this.curBoy;		
+				
+		var tempcurO=this.findtdBox(tempcurPoint).tdObject;
+		var nextTd=this.findtdBox(point).tdObject;
+
+		if(tempcurO && nextTd)
+		{
+			switch(tdp)
+			{
+				case tdProp.wall:
+					break;
+				case tdProp.road:
+					if(this.checkCurOTar(tempcurPoint))
+							{
+								tempcurO.className="tar stock";
+								this.findtdBox(tempcurPoint).prop=tdProp.tar;
+								}
+							else
+							{
+								tempcurO.className="stock";
+								this.findtdBox(tempcurPoint).prop=tdProp.road;
+								}
+							
+							nextTd.className="boy stock";
+							//对换各自的属性
+							this.findtdBox(point).prop=tdProp.boy;
+							
+							//记录移动后当前BOY的位置
+							this.curBoy=point;
+
+					break;
+				case tdProp.box:
+					//如果是BOX需要考虑BOX前面是否是WALL,还是ROAD，还是TAR
+					//获取下下一个坐标
+					var trd =this.getNextPoint(this.direction,point);
+					//获取下下一个坐标类型
+					var nnP=this.gettdProp(trd);
+
+
+					switch(nnP)
+					{
+						case tdProp.wall:
+							break;
+						case tdProp.box:
+							break;
+						case tdProp.road:
+							//把箱子和下下坐标对换，然后把BOY和箱子所在坐标对换
+							if(this.checkCurOTar(tempcurPoint))
+							{
+								tempcurO.className="tar stock";
+								this.findtdBox(tempcurPoint).prop=tdProp.tar;
+								}
+							else
+							{
+								tempcurO.className="stock";
+								this.findtdBox(tempcurPoint).prop=tdProp.road;
+								}
+							
+							nextTd.className="boy stock";
+							//对换各自的属性
+							this.findtdBox(point).prop=tdProp.boy;
+							
+							//记录移动后当前BOY的位置
+							this.curBoy=point;
+							
+							this.findtdBox(trd).tdObject.className="box stock";
+							this.findtdBox(trd).prop=tdProp.box;
+
+							
+						
+						case tdProp.tar:
+							// 这个地方表示把BOX推到了目标上，需要同意判断一下是否全部箱子推到
+							//把箱子和下下坐标对换，然后把BOY和箱子所在坐标对换
+							if(this.checkCurOTar(tempcurPoint))
+							{
+								tempcurO.className="tar stock";
+								this.findtdBox(tempcurPoint).prop=tdProp.tar;
+								}
+							else
+							{
+								tempcurO.className="stock";
+								this.findtdBox(tempcurPoint).prop=tdProp.road;
+								}
+							
+							nextTd.className="boy stock";
+							//对换各自的属性
+							this.findtdBox(point).prop=tdProp.boy;
+							
+							//记录移动后当前BOY的位置
+							this.curBoy=point;
+							
+							this.findtdBox(trd).tdObject.className="box stock";
+							this.findtdBox(trd).prop=tdProp.box;
+							
+
+							this.checkClearLevel();
+							
+							break;
+					}
+
+
+					break;
+				case tdProp.tar:
+					if(this.checkCurOTar(tempcurPoint))
+							{
+								tempcurO.className="tar stock";
+								this.findtdBox(tempcurPoint).prop=tdProp.tar;
+								}
+							else
+							{
+								tempcurO.className="stock";
+								this.findtdBox(tempcurPoint).prop=tdProp.road;
+								}
+							
+							nextTd.className="boy stock";
+							//对换各自的属性
+							this.findtdBox(point).prop=tdProp.boy;
+							
+							//记录移动后当前BOY的位置
+							this.curBoy=point;
+
+					
+
+
+					break;
+			}
+			
+			
+			
+		}
+
+	}
+	,checkClearLevel:function()
+	{
+		var isOk=true;
+		for(var j=0;j<pLevel.tar.length;j++)
+		{
+			var t=this.findtdBox(pLevel.tar[j]);
+			if(t.prop!=tdProp.box)
+			{
+				isOk=false;
+				break;
+			}
+		}
+		if(isOk)
+		{
+			window.onkeydown=document.body.onkeydown=null;
+			alert("恭喜您过关！");
+		}
+	}
+	,checkCurOTar:function(tempcurPoint)
+	{
+			for(var i=0;i<pLevel.tar.length;i++)
+			{
+				if(tempcurPoint.x==pLevel.tar[i].x &&  tempcurPoint.y==pLevel.tar[i].y)
+				return true;
+
+			}
+			return false;
+	}
+	,move:function()
+	{
+		//获取下一个点坐标
+		var nextPoint=this.getNext();
+		//获取下一个坐标类型
+		var tdP=this.gettdProp(nextPoint);
+
+		this.paint(tdP,nextPoint);
+	}
+
+	//通过坐标来找TD格子
+	,findtdBox:function(point)
+	{
+		for( var i=0;i<this.tdBoxes.length;i++)
+		{
+			if(point.x==this.tdBoxes[i].x && point.y==this.tdBoxes[i].y)
+			{
+				return this.tdBoxes[i];
+			}
+		}
+		return null;
+
+	}
+
+	,refresh:function()
+	{
+				pushBox.tdBoxes=[];
+
+		document.getElementById("placeHold").innerHTML="";
+
+		pushBox.initMap();
+
+	}
+	
+}
+pushBox.initMap();
+ </script>
+
+ </BODY>
+</HTML>

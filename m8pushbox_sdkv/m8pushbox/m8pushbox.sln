@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "m8pushbox", "m8pushbox.vcproj", "{B9C32127-BFAE-4B87-8DDB-269F3295658A}"
+EndProject
+Project("{B900F1C2-3D47-4FEC-85B3-04AAF18C3634}") = "M8PushBoxCabInstaller", "..\M8PushBoxCabInstaller\M8PushBoxCabInstaller.vddproj", "{9F4AC5DA-D7A6-4DBB-BBD4-63702667A557}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M8PushBoxLevelMaker", "..\M8PushBoxLevelMaker\M8PushBoxLevelMaker.csproj", "{E64562ED-BFC2-4C62-8B98-DC88454440E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|M8SDK (ARMV4I) = Debug|M8SDK (ARMV4I)
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|Any CPU = Release|Any CPU
+		Release|M8SDK (ARMV4I) = Release|M8SDK (ARMV4I)
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9C32127-BFAE-4B87-8DDB-269F3295658A}.Debug|Any CPU.ActiveCfg = Debug|M8SDK (ARMV4I)
+		{B9C32127-BFAE-4B87-8DDB-269F3295658A}.Debug|M8SDK (ARMV4I).ActiveCfg = Debug|M8SDK (ARMV4I)
+		{B9C32127-BFAE-4B87-8DDB-269F3295658A}.Debug|M8SDK (ARMV4I).Build.0 = Debug|M8SDK (ARMV4I)
+		{B9C32127-BFAE-4B87-8DDB-269F3295658A}.Debug|M8SDK (ARMV4I).Deploy.0 = Debug|M8SDK (ARMV4I)
+		{B9C32127-BFAE-4B87-8DDB-269F3295658A}.Debug|Mixed Platforms.ActiveCfg = Debug|M8SDK (ARMV4I)
+		{B9C32127-BFAE-4B87-8DDB-269F3295658A}.Debug|Mixed Platforms.Build.0 = Debug|M8SDK (ARMV4I)
+		{B9C32127-BFAE-4B87-8DDB-269F3295658A}.Debug|Mixed Platforms.Deploy.0 = Debug|M8SDK (ARMV4I)
+		{B9C32127-BFAE-4B87-8DDB-269F3295658A}.Release|Any CPU.ActiveCfg = Release|M8SDK (ARMV4I)
+		{B9C32127-BFAE-4B87-8DDB-269F3295658A}.Release|M8SDK (ARMV4I).ActiveCfg = Release|M8SDK (ARMV4I)
+		{B9C32127-BFAE-4B87-8DDB-269F3295658A}.Release|M8SDK (ARMV4I).Build.0 = Release|M8SDK (ARMV4I)
+		{B9C32127-BFAE-4B87-8DDB-269F3295658A}.Release|M8SDK (ARMV4I).Deploy.0 = Release|M8SDK (ARMV4I)
+		{B9C32127-BFAE-4B87-8DDB-269F3295658A}.Release|Mixed Platforms.ActiveCfg = Release|M8SDK (ARMV4I)
+		{B9C32127-BFAE-4B87-8DDB-269F3295658A}.Release|Mixed Platforms.Build.0 = Release|M8SDK (ARMV4I)
+		{B9C32127-BFAE-4B87-8DDB-269F3295658A}.Release|Mixed Platforms.Deploy.0 = Release|M8SDK (ARMV4I)
+		{9F4AC5DA-D7A6-4DBB-BBD4-63702667A557}.Debug|Any CPU.ActiveCfg = Debug
+		{9F4AC5DA-D7A6-4DBB-BBD4-63702667A557}.Debug|Any CPU.Build.0 = Debug
+		{9F4AC5DA-D7A6-4DBB-BBD4-63702667A557}.Debug|M8SDK (ARMV4I).ActiveCfg = Debug
+		{9F4AC5DA-D7A6-4DBB-BBD4-63702667A557}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{9F4AC5DA-D7A6-4DBB-BBD4-63702667A557}.Debug|Mixed Platforms.Build.0 = Debug
+		{9F4AC5DA-D7A6-4DBB-BBD4-63702667A557}.Release|Any CPU.ActiveCfg = Release
+		{9F4AC5DA-D7A6-4DBB-BBD4-63702667A557}.Release|Any CPU.Build.0 = Release
+		{9F4AC5DA-D7A6-4DBB-BBD4-63702667A557}.Release|M8SDK (ARMV4I).ActiveCfg = Release
+		{9F4AC5DA-D7A6-4DBB-BBD4-63702667A557}.Release|Mixed Platforms.ActiveCfg = Release
+		{9F4AC5DA-D7A6-4DBB-BBD4-63702667A557}.Release|Mixed Platforms.Build.0 = Release
+		{E64562ED-BFC2-4C62-8B98-DC88454440E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E64562ED-BFC2-4C62-8B98-DC88454440E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E64562ED-BFC2-4C62-8B98-DC88454440E7}.Debug|M8SDK (ARMV4I).ActiveCfg = Debug|Any CPU
+		{E64562ED-BFC2-4C62-8B98-DC88454440E7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E64562ED-BFC2-4C62-8B98-DC88454440E7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E64562ED-BFC2-4C62-8B98-DC88454440E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E64562ED-BFC2-4C62-8B98-DC88454440E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E64562ED-BFC2-4C62-8B98-DC88454440E7}.Release|M8SDK (ARMV4I).ActiveCfg = Release|Any CPU
+		{E64562ED-BFC2-4C62-8B98-DC88454440E7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E64562ED-BFC2-4C62-8B98-DC88454440E7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
